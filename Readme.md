@@ -7,7 +7,15 @@ This document describes the procedures for building and launching a mock environ
 > This Mock can run in any environment that supports containers.  
 > For information about the CoHDI runtime environment, please refer to the Helm page (coming soon).
 
+Please use this Mock as an alternative for Composable Hardware Disaggregated Infrastructure Manager within the red block below.
+![alt text](doc/mock1.png)
+
+With this Mock, we aim to be able to verify CoHDI's operation even on virtual machine environments.
+![alt text](doc/mock2.png)
+
 ---
+
+
 
 ## 1. Building the Mock
 
