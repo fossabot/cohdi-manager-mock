@@ -1,0 +1,50 @@
+{
+  "data": {
+    "machines": [
+      {
+        "fabric_uuid": "fab-0001-uuid",
+        "fabric_id": 1,
+        "mach_uuid": "00000000-0000-0000-0000-000000000001",
+        "mach_id_nonliqid": null,
+        "mach_id": 1,
+        "mach_name": "m1",
+        "mach_status": 15,
+        "mach_op_status": "00",
+        "mach_status_detail": "INACTIVE POFF",
+        "mach_owner": "AnonymousUser",
+        "tenant_uuid": "tenant-0001-uuid",
+        "boot_ssd": null,
+        "lanports": [
+          {
+            "lanport_uuid": "lanport-0001-uuid",
+            "subnet_uuid": "subnet-0001-uuid",
+            "lanport_idx": 0,
+            "mac_address": "ab:cd:ef:ab:cd:01",
+            "nw_class_cu": "00000",
+            "ip_address": "192.168.1.101"
+          }
+        ],
+        "resources": [
+	  {
+            "res_uuid": "12345678-1234-1234-1234-1234567890a1",
+            "res_name": "gpu0",
+            "res_type": "gpu",
+            "res_status": 4,
+            "res_op_status": "0",
+            "condition_uuid": "12345678-1234-1234-1234-1234567890e1",
+            "res_serial_num": "12345678-1234-1234-1234-1234567890a1",
+            "res_spec": {
+              "condition": [
+                {
+                  "column": "model",
+                  "operator": "eq",
+                  "value": "A100-40G"
+                }
+              ]
+            }
+          }
+	]
+      }
+    ]
+  }
+}

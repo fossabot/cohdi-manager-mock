@@ -1,0 +1,46 @@
+{
+  "data": {
+    "tenant_uuid": "tenant-0001-uuid",
+    "cluster": {
+      "cluster_uuid": "cluster-0001-uuid",
+      "machine": {
+        "uuid": "00000000-0000-0000-0000-000000000001",
+	"name": "testserver",
+	"status": "ADD_COMPLETE",
+	"status_reason": "testing",
+	"resspecs": [
+	  {
+	    "spec_uuid": "spec-0001-uuid",
+	    "type": "gpu",
+	    "selector": {
+	      "version": "type_conditions",
+	      "expression": {
+		"conditions": [
+		  {
+		    "column": "model",
+		    "operator": "eq",
+		    "value": "A100 40G"
+		  }
+		]
+	      }
+	    },
+	    "min_resspec_count": 2,
+	    "max_resspec_count": 6,
+	    "device_count": 5,
+	    "devices": [
+	      {
+		"device_id": "00000000-bbbb-0000-0000-000000000001",
+		"status": "ADD_COMPLETE",
+		"status_reason": "testing",
+		"detail": {
+		  "fabric_uuid": "fab-0001-uuid",
+		  "res_name": "foo"
+		}
+	      }
+	    ]
+	  }
+	]
+      }
+    }
+  }
+}
