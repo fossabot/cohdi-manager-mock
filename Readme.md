@@ -15,8 +15,6 @@ With this Mock, we aim to be able to verify CoHDI's operation even on virtual ma
 
 ---
 
-
-
 ## 1. Building the Mock
 
 In this procedure, you will work in a directory named mock, created directly under your home directory.
