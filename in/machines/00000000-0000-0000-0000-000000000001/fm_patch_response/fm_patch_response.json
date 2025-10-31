@@ -1,0 +1,32 @@
+{
+    "data": {
+        "machines": [
+            {
+                "mach_uuid": "00000000-0000-0000-0000-000000000001",
+                "fabric_uuid": "fab-0001-uuid",
+                "fabric_id": 1,
+                "mach_id": 1,
+                "mach_name": "m1",
+                "resources": [
+                    {
+                        "res_uuid": "res-0001",
+                        "res_name": "gpu0",
+                        "res_type": "gpu",
+                        "res_status": 4,
+                        "res_op_status": "0",
+                        "res_serial_num": "12345678-1234-1234-1234-1234567890a1",
+                        "res_spec": {
+                            "condition": [
+                                {
+                                    "column": "model",
+                                    "operator": "eq",
+                                    "value": "A100-40G"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

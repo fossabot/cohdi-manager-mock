@@ -1,0 +1,23 @@
+{
+  "data": {
+    "machines": [
+      {
+        "fabric_uuid": "fab-0001-uuid",
+        "fabric_id": 1,
+        "mach_uuid": "00000000-0000-0000-0000-000000000001",
+        "mach_id": 1,
+        "mach_name": "ubuntu24-11",
+        "mach_owner": "AnonymousUser",
+        "resources": [
+          {
+            "res_uuid": "res-0001",
+            "res_name": "pcpu0",
+            "res_type": "compute",
+            "res_status": 4,
+            "res_op_status": "0"
+          }
+        ]
+      }
+    ]
+  }
+}
